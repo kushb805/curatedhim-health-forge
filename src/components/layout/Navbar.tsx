@@ -31,7 +31,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-4">
         <Link to="/" className="flex items-center">
           <img
-            src="/lovable-uploads/03aed59c-dce4-44c7-840c-a359fcd44e8e.png"
+            src="/lovable-uploads/e17aa85c-f227-4690-8609-105ccd7c9463.png"
             alt="CuratedHim Logo"
             className="h-10"
           />
@@ -45,6 +45,12 @@ export function Navbar() {
             Home
           </Link>
           <Link
+            to="/blog"
+            className="text-foreground hover:text-brand-gold transition-colors font-medium"
+          >
+            Blog
+          </Link>
+          <Link
             to="/about"
             className="text-foreground hover:text-brand-gold transition-colors font-medium"
           >
@@ -55,12 +61,6 @@ export function Navbar() {
             className="text-foreground hover:text-brand-gold transition-colors font-medium"
           >
             Features
-          </Link>
-          <Link
-            to="/testimonials"
-            className="text-foreground hover:text-brand-gold transition-colors font-medium"
-          >
-            Testimonials
           </Link>
         </div>
 

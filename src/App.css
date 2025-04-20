@@ -32,3 +32,31 @@
 .hover-glow:hover {
   animation: glow 2s ease-in-out infinite;
 }
+
+/* Parallax styles */
+.parallax-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 10px;
+  transform-style: preserve-3d;
+}
+
+.parallax-content {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+.parallax-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  transform: translateZ(-10px) scale(2);
+}
+
+.parallax-foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
