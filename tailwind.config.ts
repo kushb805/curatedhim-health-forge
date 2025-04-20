@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        brand: {
+          blue: '#003366',
+          gold: '#957c3d',
+          goldLight: '#E5C07B',
+          dark: '#151515',
+          cardBg: 'hsl(0 0% 12%)',
+          muted: 'hsl(0 0% 20%)',
+          mutedText: 'hsl(0 0% 70%)',
+        },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
