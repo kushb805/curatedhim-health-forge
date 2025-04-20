@@ -1,3 +1,4 @@
+
 #root {
   width: 100%;
   min-height: 100vh;
@@ -60,3 +61,4 @@
 .parallax-foreground {
   transform: translateZ(-5px) scale(1.5);
 }
+

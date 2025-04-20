@@ -54,7 +54,7 @@ export function HeroSection() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <Link
               to="/signup"
-              className="bg-brand-blue hover:bg-brand-blue/90 text-brand-gold border border-brand-gold px-8 py-3 rounded-md transition-all duration-300 font-medium text-lg w-full md:w-auto text-center"
+              className="bg-brand-blue hover:bg-brand-blue/90 text-brand-gold border border-brand-gold px-8 py-3 rounded-md transition-all duration-300 font-medium text-lg w-full md:w-auto text-center hover-glow"
             >
               Get Started
             </Link>

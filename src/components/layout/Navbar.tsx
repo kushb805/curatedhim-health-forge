@@ -33,7 +33,7 @@ export function Navbar() {
           <img
             src="/lovable-uploads/e17aa85c-f227-4690-8609-105ccd7c9463.png"
             alt="CuratedHim Logo"
-            className="h-10"
+            className="h-16" // Increased logo size by ~60%
           />
         </Link>
 
